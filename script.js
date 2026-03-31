@@ -10,3 +10,6 @@ function calculate() {
     let res = document.getElementById("result").value;
     document.getElementById("result").value = eval(res);
 }
+function toggleDark() {
+    document.body.classList.toggle("dark");
+}
